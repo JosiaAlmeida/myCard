@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.grey,
+        backgroundColor: Colors.blueGrey,
         body: SafeArea(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
@@ -22,6 +22,7 @@ class MyApp extends StatelessWidget {
                   style: TextStyle(
                     color: Colors.deepOrange,
                     fontSize: 40.0,
+                    fontFamily: "Source Sans Pro"
                   ),
                 ),
                 Text(
@@ -50,6 +51,7 @@ class MyApp extends StatelessWidget {
                           style: TextStyle(
                             color: Colors.deepOrange,
                             fontSize: 20.0,
+                            fontFamily: "Source Sans Regular"
                           ),
                         ),
                       ],
@@ -75,6 +77,7 @@ class MyApp extends StatelessWidget {
                           style: TextStyle(
                             color: Colors.deepOrange,
                             fontSize: 20.0,
+                            fontFamily: "Source Sans Regular"
                           ),
                         ),
                       ],
